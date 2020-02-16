@@ -1,0 +1,433 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.27)  12 FEB 2020 23:13
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/ray/env/PojB2019/ProjectB-1.tex
+(/Users/ray/env/PojB2019/ProjectB-1.tex
+LaTeX2e <2018-12-01>
+(/Users/ray/env/PojB2019/tPlate.cls
+Document Class: tPlate 2020/02/10
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+\f@nch@headwidth=\skip41
+\f@nch@O@elh=\skip42
+\f@nch@O@erh=\skip43
+\f@nch@O@olh=\skip44
+\f@nch@O@orh=\skip45
+\f@nch@O@elf=\skip46
+\f@nch@O@erf=\skip47
+\f@nch@O@olf=\skip48
+\f@nch@O@orf=\skip49
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip50
+\belowcaptionskip=\skip51
+\bibindent=\dimen102
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box27
+\beforetitleunit=\skip52
+\aftertitleunit=\skip53
+\ttl@plus=\dimen103
+\ttl@minus=\dimen104
+\ttl@toksa=\toks14
+\titlewidth=\dimen105
+\titlewidthlast=\dimen106
+\titlewidthfirst=\dimen107
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/titlesec/block.tss
+File: block.tss 2016/03/15
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+) (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+) (/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen108
+\Gm@wd@mp=\dimen109
+\Gm@odd@mp=\dimen110
+\Gm@even@mp=\dimen111
+\Gm@layoutwidth=\dimen112
+\Gm@layoutheight=\dimen113
+\Gm@layouthoffset=\dimen114
+\Gm@layoutvoffset=\dimen115
+\Gm@dimlist=\toks16
+)
+\problembox=\box28
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/palatino.sty
+Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen116
+\Gin@req@width=\dimen117
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count91
+\float@exts=\toks17
+\float@box=\box29
+\@float@everytoks=\toks18
+\@floatcapt=\box30
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen118
+\lightrulewidth=\dimen119
+\cmidrulewidth=\dimen120
+\belowrulesep=\dimen121
+\belowbottomsep=\dimen122
+\aboverulesep=\dimen123
+\abovetopsep=\dimen124
+\cmidrulesep=\dimen125
+\cmidrulekern=\dimen126
+\defaultaddspace=\dimen127
+\@cmidla=\count92
+\@cmidlb=\count93
+\@aboverulesep=\dimen128
+\@belowrulesep=\dimen129
+\@thisruleclass=\count94
+\@lastruleclass=\count95
+\@thisrulewidth=\dimen130
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count96
+\lst@gtempboxa=\box31
+\lst@token=\toks19
+\lst@length=\count97
+\lst@currlwidth=\dimen131
+\lst@column=\count98
+\lst@pos=\count99
+\lst@lostspace=\dimen132
+\lst@width=\dimen133
+\lst@newlines=\count100
+\lst@lineno=\count101
+\lst@maxwidth=\dimen134
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count102
+\lst@skipnumbers=\count103
+\lst@framebox=\box32
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks20
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks21
+\inpenc@posthook=\toks22
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
+Package: dirtytalk 2010/11/21 A package making "quoting" easier
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+ (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+ (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+ (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)))) (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@dirtytalk@qdepth=\count104
+) (/Users/ray/env/PojB2019/ProjectB-1.aux
+
+LaTeX Warning: Label `fig. 7' multiply defined.
+
+)
+\openout1 = `ProjectB-1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 32.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=652.70622pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count105
+\scratchdimen=\dimen135
+\scratchbox=\box33
+\nofMPsegments=\count106
+\nofMParguments=\count107
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count108
+\MPscratchDim=\dimen136
+\MPnumerator=\count109
+\makeMPintoPDFobject=\count110
+\everyMPtoPDFconversion=\toks24
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+ (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+)) (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\c@lstlisting=\count111
+</Users/ray/Box/CoxAuto/SrClientPerf/SICE_LOGO.PNG, id=1, 1647.15375pt x 1647.15375pt>
+File: /Users/ray/Box/CoxAuto/SrClientPerf/SICE_LOGO.PNG Graphic file (type png)
+<use /Users/ray/Box/CoxAuto/SrClientPerf/SICE_LOGO.PNG>
+Package pdftex.def Info: /Users/ray/Box/CoxAuto/SrClientPerf/SICE_LOGO.PNG  used on input line 38.
+(pdftex.def)             Requested size: 289.07999pt x 289.0605pt.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 44.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 52.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 52.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 52.
+ [1
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/ray/Box/CoxAuto/SrClientPerf/SICE_LOGO.PNG>]
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 82.
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
+
+ []
+
+</Users/ray/Box/CoxAuto/SrClientPerf/VehicleLookupDuplicates.jpg, id=12, 856.19875pt x 569.12625pt>
+File: /Users/ray/Box/CoxAuto/SrClientPerf/VehicleLookupDuplicates.jpg Graphic file (type jpg)
+<use /Users/ray/Box/CoxAuto/SrClientPerf/VehicleLookupDuplicates.jpg>
+Package pdftex.def Info: /Users/ray/Box/CoxAuto/SrClientPerf/VehicleLookupDuplicates.jpg  used on input line 104.
+(pdftex.def)             Requested size: 250.06805pt x 166.2212pt.
+[1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+</Users/ray/Box/CoxAuto/SrClientPerf/PMI.jpg, id=16, 1875.005pt x 706.64pt>
+File: /Users/ray/Box/CoxAuto/SrClientPerf/PMI.jpg Graphic file (type jpg)
+<use /Users/ray/Box/CoxAuto/SrClientPerf/PMI.jpg>
+Package pdftex.def Info: /Users/ray/Box/CoxAuto/SrClientPerf/PMI.jpg  used on input line 121.
+(pdftex.def)             Requested size: 441.05539pt x 166.2212pt.
+[2 </Users/ray/Box/CoxAuto/SrClientPerf/VehicleLookupDuplicates.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+</Users/ray/Box/CoxAuto/SrClientPerf/Scarcity.jpg, id=20, 1875.005pt x 706.64pt>
+File: /Users/ray/Box/CoxAuto/SrClientPerf/Scarcity.jpg Graphic file (type jpg)
+<use /Users/ray/Box/CoxAuto/SrClientPerf/Scarcity.jpg>
+Package pdftex.def Info: /Users/ray/Box/CoxAuto/SrClientPerf/Scarcity.jpg  used on input line 133.
+(pdftex.def)             Requested size: 441.05539pt x 166.2212pt.
+[3 </Users/ray/Box/CoxAuto/SrClientPerf/PMI.jpg> </Users/ray/Box/CoxAuto/SrClientPerf/Scarcity.jpg>]
+</Users/ray/Box/CoxAuto/SrClientPerf/Days.jpg, id=24, 1875.005pt x 706.64pt>
+File: /Users/ray/Box/CoxAuto/SrClientPerf/Days.jpg Graphic file (type jpg)
+<use /Users/ray/Box/CoxAuto/SrClientPerf/Days.jpg>
+Package pdftex.def Info: /Users/ray/Box/CoxAuto/SrClientPerf/Days.jpg  used on input line 146.
+(pdftex.def)             Requested size: 441.05539pt x 166.2212pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+
+ []
+
+</Users/ray/Box/CoxAuto/SrClientPerf/Search.jpg, id=25, 1875.005pt x 706.64pt>
+File: /Users/ray/Box/CoxAuto/SrClientPerf/Search.jpg Graphic file (type jpg)
+<use /Users/ray/Box/CoxAuto/SrClientPerf/Search.jpg>
+Package pdftex.def Info: /Users/ray/Box/CoxAuto/SrClientPerf/Search.jpg  used on input line 158.
+(pdftex.def)             Requested size: 441.05539pt x 166.2212pt.
+[4
+
+ </Users/ray/Box/CoxAuto/SrClientPerf/Days.jpg>]
+</Users/ray/Box/CoxAuto/SrClientPerf/CarSearch.jpg, id=29, 2003.485pt x 1347.0325pt>
+File: /Users/ray/Box/CoxAuto/SrClientPerf/CarSearch.jpg Graphic file (type jpg)
+<use /Users/ray/Box/CoxAuto/SrClientPerf/CarSearch.jpg>
+Package pdftex.def Info: /Users/ray/Box/CoxAuto/SrClientPerf/CarSearch.jpg  used on input line 168.
+(pdftex.def)             Requested size: 429.94604pt x 289.07999pt.
+ [5 </Users/ray/Box/CoxAuto/SrClientPerf/Search.jpg> </Users/ray/Box/CoxAuto/SrClientPerf/CarSearch.jpg>]
+</Users/ray/Box/CoxAuto/SrClientPerf/suv.jpg, id=33, 1875.005pt x 706.64pt>
+File: /Users/ray/Box/CoxAuto/SrClientPerf/suv.jpg Graphic file (type jpg)
+<use /Users/ray/Box/CoxAuto/SrClientPerf/suv.jpg>
+Package pdftex.def Info: /Users/ray/Box/CoxAuto/SrClientPerf/suv.jpg  used on input line 178.
+(pdftex.def)             Requested size: 383.5202pt x 144.54pt.
+</Users/ray/Box/CoxAuto/SrClientPerf/trucks.jpg, id=34, 1875.005pt x 706.64pt>
+File: /Users/ray/Box/CoxAuto/SrClientPerf/trucks.jpg Graphic file (type jpg)
+<use /Users/ray/Box/CoxAuto/SrClientPerf/trucks.jpg>
+Package pdftex.def Info: /Users/ray/Box/CoxAuto/SrClientPerf/trucks.jpg  used on input line 185.
+(pdftex.def)             Requested size: 383.5202pt x 144.54pt.
+</Users/ray/Box/CoxAuto/SrClientPerf/inventory.jpg, id=35, 1272.755pt x 658.46pt>
+File: /Users/ray/Box/CoxAuto/SrClientPerf/inventory.jpg Graphic file (type jpg)
+<use /Users/ray/Box/CoxAuto/SrClientPerf/inventory.jpg>
+Package pdftex.def Info: /Users/ray/Box/CoxAuto/SrClientPerf/inventory.jpg  used on input line 194.
+(pdftex.def)             Requested size: 419.07826pt x 216.81pt.
+ [6 </Users/ray/Box/CoxAuto/SrClientPerf/suv.jpg> </Users/ray/Box/CoxAuto/SrClientPerf/trucks.jpg>]
+</Users/ray/Box/CoxAuto/SrClientPerf/inventoryRanking.jpg, id=40, 1272.755pt x 658.46pt>
+File: /Users/ray/Box/CoxAuto/SrClientPerf/inventoryRanking.jpg Graphic file (type jpg)
+<use /Users/ray/Box/CoxAuto/SrClientPerf/inventoryRanking.jpg>
+Package pdftex.def Info: /Users/ray/Box/CoxAuto/SrClientPerf/inventoryRanking.jpg  used on input line 201.
+(pdftex.def)             Requested size: 419.07826pt x 216.81pt.
+ [7 </Users/ray/Box/CoxAuto/SrClientPerf/inventory.jpg> </Users/ray/Box/CoxAuto/SrClientPerf/inventoryRanking.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 228.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 228.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 228.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 1975) in paragraph at lines 228--228
+[][]\OT1/ppl/m/n/10 Valero, What is Thick Data?. April 17, 2017, $\OT1/pcr/m/n/10 https : / / blog . antropologia2-[]0 . com / en /
+ []
+
+</Users/ray/Box/CoxAuto/SrClientPerf/ThickData.jpg, id=44, 1092.08pt x 1166.3575pt>
+File: /Users/ray/Box/CoxAuto/SrClientPerf/ThickData.jpg Graphic file (type jpg)
+<use /Users/ray/Box/CoxAuto/SrClientPerf/ThickData.jpg>
+Package pdftex.def Info: /Users/ray/Box/CoxAuto/SrClientPerf/ThickData.jpg  used on input line 234.
+(pdftex.def)             Requested size: 338.32468pt x 361.34999pt.
+[8
+
+] [9 </Users/ray/Box/CoxAuto/SrClientPerf/ThickData.jpg>] (/Users/ray/env/PojB2019/ProjectB-1.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4138 strings out of 492609
+ 60911 string characters out of 6129048
+ 133916 words of memory out of 5000000
+ 7971 multiletter control sequences out of 15000+600000
+ 16280 words of font info for 43 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 37i,10n,45p,782b,259s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on /Users/ray/env/PojB2019/ProjectB-1.pdf (10 pages, 2475844 bytes).
+PDF statistics:
+ 68 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+

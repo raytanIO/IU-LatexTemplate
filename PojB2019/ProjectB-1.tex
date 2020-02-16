@@ -1,0 +1,239 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\author{}
+\documentclass[
+	12pt, % Default font size, values between 10pt-12pt are allowed
+	letterpaper, % US letter paper size
+]{tPlate}
+
+%Template-specific packages
+%\usepackage[utf8]{inputenc} % Required for inputting international characters
+%\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{palatino} % Use the Palatino font
+
+\usepackage{graphicx} % Required for including images
+\usepackage{float} %Allows for control of float positions
+
+%Package for pathnames
+\usepackage[obeyspaces]{url}
+
+\usepackage{booktabs} % Required for better horizontal rules in tables
+
+\usepackage{listings} % Required for insertion of code
+
+\usepackage{enumerate} % To modify the enumerate environment
+
+\usepackage[utf8]{inputenc}
+\usepackage{dirtytalk} % put quotations
+%----------------------------------------------------------------------------------------
+%	ASSIGNMENT INFORMATION
+%----------------------------------------------------------------------------------------
+\begin{document}
+\begin{titlepage}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\begin{figure}
+	\centering
+         \includegraphics[width=4in]{/Users/ray/Box/CoxAuto/SrClientPerf/SICE_LOGO.PNG}
+\end{figure}         
+
+\center 
+\makeatletter
+\HRule \\[0.6cm]
+{\huge \bfseries{Project B: Big Data Concepts}}\\[0.4cm] 
+\HRule \\[1.5cm]
+
+\begin{minipage}{0.3\textwidth}
+\begin{center} \large
+\emph{Author:}\\
+\textup{Raymond Tan}
+\end{center}
+\end{minipage}
+~
+\begin{minipage}{0.3\textwidth}
+\begin{center} \large
+\emph{TA:}\\
+\textup{Utkarsh Kumar}
+\end{center}
+\end{minipage}
+~
+\begin{minipage}{0.3\textwidth}
+\begin{center} \large
+\emph{Instructor:} \\
+\textup{Dr. Inna Kouper}
+\end{center}
+\end{minipage}\\[3cm]
+
+\makeatother
+{\large {A Project submitted for:}}\\[0.5cm]
+{\large \emph{I-535 Management, Access, and Use of Big and Complex Data}}\\[0.5cm]
+{\large \today}\\[2cm] 
+
+\vfill
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+
+\title{Used Car Analysis: CarTrader} % For Header Title
+
+\cleardoublepage
+
+\section{INTRODUCTION}
+This Data Analytics project is from real data with some information anonymized for confidentiality.  
+An online car dealership in Atlanta GA has requested our company to provide some insights to their business.\\  
+
+CarTrader wants to know how they are performing with their listings in the Atlanta market compared to the competition.  They are most concerned about the used car marketplace because they have not seen a lot of data in that area. 
+
+\section{BACKGROUND}
+This project is really interesting because it is a real business problem and will give insights to used car market in Atlanta Georgia.  We will analyze the issue with the online dealership, the competition and provide some recommendation for CarTrader. 
+
+\section{METHODOLOGY}
+To get the performance of CarTrader listings, we we pulled 3 database tables worth of 1 year data from October 2018 to Oct 2019:  These tables comes from one of the biggest company that tracks vehicle transactions.
+
+\begin{enumerate}
+	\item Customer Lookup Sample File.txt – This file contains the information about the customer that will be used for comparison
+	\item Vehicle Lookup Sample File.txt – This file contains the information about the vehicles
+	\item Vehicle Details Sample File.txt – This is the transaction log file that contains user activity for new and used vehicles on our Website
+\end{enumerate}
+
+The tables were processed, inspected, and analyzed for data consistency in OpenRefine.  The data was then further processed in Tableau, taking the customer data as a primary table. We left-join the Details table using customer ID.  To get the vehicle information, we also left join the Vehicle lookup table to the combined table using Vehicle ID.  
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=2.3in]{/Users/ray/Box/CoxAuto/SrClientPerf/VehicleLookupDuplicates.jpg}
+	\caption[Optional caption]{OpenRefine cleaning}
+	\label{fig. 1}
+\end{figure}
+
+To benchmark the performance of CarTrader with the competition, we'll compare the search statistics for each Website,  look at the average PMI (Price to Market Index), inspect average scarcity of vehicles in each Website, understand dealer inventory and also look at how long does the cars averagely stays in each Website. \\
+
+There are 2 important parameters for this study.  The analysis is targeted for the used car market in Atlanta. We have to ensure that we have filtered the data with used car information only.  Another parameter is that the analysis is for the Atlanta market only.  The available data are all for the Greater Atlanta market, so no further filtering of data was required.
+
+\section{RESULTS} 
+\subsection{Price to Market Index}
+PMI – Price to Market Index.  This value gives an indicator of how well the vehicle is priced to the market.  A value of 100 is the market average.  Anything above 100 would be priced above the market average.  And anything below 100 would be priced below the market average. \\
+
+CarTrader is pricing its used cars well. However, more Sites are pricing their cars more aggressively.  We ranked 6th, which means that people will tend to go to other sites when they are looking for better deals in used cars.  We could further decide to be even more aggressive in our pricing if we want to compete with PMI.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=2.3in]{/Users/ray/Box/CoxAuto/SrClientPerf/PMI.jpg}
+	\caption[Optional caption]{Average PMI}
+	\label{fig. 2}
+\end{figure}
+
+\subsection{Scarcity}
+Scarcity – This is an indicator of how much supply of a vehicle there is compared to the demand for that vehicle.  A higher value would indicate that there is more demand than supply.  A lower number would indicate more supply than demand.\\
+
+We are ranked 3rd in scarcity.  Our scarcity numbers mean that there's a lot of demand in used cars, and CarTrader has a high shortage of used cars.  We have to find a way to put more vehicles in our used car inventory.  
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=2.3in]{/Users/ray/Box/CoxAuto/SrClientPerf/Scarcity.jpg}
+	\caption[Optional caption]{Average Scarcity of Vehicles in Website}
+	\label{fig. 3}
+\end{figure}
+
+\cleardoublepage
+
+\subsection{Days on Site}
+Days on Site - This is an indicator of how long in the number of days a vehicle is available from the Website.  Smaller number will indicate that we are selling cars faster. This number could also mean that we are just quicker updating our Website when the vehicles are removed from our website.  \\
+For Days on Site, we are ranked 8th.  This could indicate that we are not selling as fast as our competitors.  This could also mean that we are not updating our website quickly soon enough when we sell a used car.  
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=2.3in]{/Users/ray/Box/CoxAuto/SrClientPerf/Days.jpg}
+	\caption[Optional caption]{Average Days on Site}
+	\label{fig. 4}
+\end{figure}
+
+\subsection{Search}
+Search - This is an indicator of how many people are searching for our website for a used car.  More search means our site is more popular for people who are looking to buy a used car.  A low number means our website is not as popular as other sites.\\
+
+For search, we are ranked last. This could indicate that our website is the least popular for people when they are looking to buy used car.  This could signal that our website is not user-friendly, not marketed, we do not have inventory of what people wants, our price is higher or social media reviews may not be positive.  
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=2.3in]{/Users/ray/Box/CoxAuto/SrClientPerf/Search.jpg}
+	\caption[Optional caption]{Total Search made in Website}
+	\label{fig. 5}
+\end{figure}
+
+\subsection{Most Searched Vehicles}
+We need find out what people are searching most.  CarTraders is last on search.  This will give us a gauge of the demand of used car market, which type and brand are most searched.  It was fascinating to find that around 80\% of the searches are all year models of Ford Trucks and Jeep SUV's.  
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=4in]{/Users/ray/Box/CoxAuto/SrClientPerf/CarSearch.jpg}
+	\caption[Optional caption]{Over 80\% of Search was Jeep SUV and Ford Trucks}
+	\label{fig. 6}
+\end{figure}
+
+\subsection{Inventory Analysis}
+People are searching for used Ford Trucks and Jeep SUV's. In this inventory analysis, we analyzed the inventory of the user cars market.  CarTraders are lagging behind in this 2 car segments which we think contributes to the lack of searches and popularity with people looking for used car in the internet.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=2in]{/Users/ray/Box/CoxAuto/SrClientPerf/suv.jpg}
+	\caption[Optional caption]{Inventory Jeep}
+	\label{fig. 7}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=2in]{/Users/ray/Box/CoxAuto/SrClientPerf/trucks.jpg}
+	\caption[Optional caption]{Inventory Ford}
+	\label{fig. 8}
+\end{figure}
+
+CarTraders almost do not have the most popular used cars. What does the type of cars CarTraders has and their competitors? From our analysis, CarTraders have most inventory on sedans, convertibles and wagons.  CarTraders need to have more Ford Trucks and Jeep SUV to be able to compete.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=3in]{/Users/ray/Box/CoxAuto/SrClientPerf/inventory.jpg}
+	\caption[Optional caption]{Inventory}
+	\label{fig. 9}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=3in]{/Users/ray/Box/CoxAuto/SrClientPerf/inventoryRanking.jpg}
+	\caption[Optional caption]{Inventory Ranking}
+	\label{fig. 10}
+\end{figure}
+\cleardoublepage
+\section{DISCUSSION}
+Looking at the results, the inventory of the CarTraders are not what the people wants.  There's also an indication that the pricing and availability could contribute to the poor performance of CarTrader.com compared to competitors.\\
+
+In this project, I implemented the data lifecycle we discussed in week 4.  I initially thought of putting the data in our JetStream virtualized environment and use DFS but the 1 year data is structured and can be handled by Tableau directly.  I implemented Quality and Cleaning, Analytics and implemented Goal setting, understanding data and implemented tools to get desired project goals.\\
+
+If this will be a recurring project or if continuous analysis will be required by the customer, we'll re-design a data pipeline that will pull this 3 database automatically, put them in a RDBMS or MongoDB.  We'll pre-process them in Alteryx and probably design an automated analytics product and use Tableau for ad hoc analytics request.\\
+
+Our vehicle database also has some duplication and I have informed our data engineering team to look at them and clean them.
+
+\section{CONCLUSION}
+We suggested CarTrader to overhaul their inventory and put more Ford Trucks and Jeep SUV used cars in their Website  We also suggested if they could be a little more aggressive with pricing specially as they try to rebuild their website traffic.  We recommend some form of research in Atlanta used car market because we don't know if there are UX issues with the website as well, could be focus groups, commissioning ethnographers, or UX research. We discussed a need for Thick Data of people's used car buying trends to understand why they are not searching at CarTraders.com.  Some of the questions we could ask are: Where will they go if they will look for a used car? What is it that they like in a website when buying a used car?\\[5mm]
+
+\textbf{What is Thick Data?}\\
+
+Thick Data. The importance of context and emotion\\
+
+The term Thick Data has been popularized by the anthropologist Tricia Wang and it 
+refers to \say{dense data}, a more than evident nod to Clifford Geertz's \say{dense description}. 
+The Thick Data differs from Big Data by its qualitative approach, obtaining ethnographic data that 
+allows to reveal contexts and emotions of the studied subjects. While Big Data requires an algorithmic 
+process usually carried out by statesmen and mathematicians, Thick Data is the ground of anthropologists, 
+sociologists, and social scientists.\footnote {Valero, What is Thick Data?. April 17, 2017,
+ \url{https://blog.antropologia2-0.com/en/what-is-thick-data/}}
+
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=5in]{/Users/ray/Box/CoxAuto/SrClientPerf/ThickData.jpg}
+	\caption{Thick Data}
+	\label{fig. 7}
+\end{figure}
+
+\end{document}
